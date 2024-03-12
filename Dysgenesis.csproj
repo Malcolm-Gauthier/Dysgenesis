@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>sdl_test_3</RootNamespace>
+    <RootNamespace>Dysgenesis</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Platforms>AnyCPU;x86;x64</Platforms>
@@ -34,14 +34,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="NAudio" Version="2.1.0" />
     <PackageReference Include="Sayers.SDL2.Core" Version="1.0.11" />
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="WindowsBase">
+    <!--<Reference Include="WindowsBase">
       <HintPath>..\..\..\..\..\Program Files\Reference Assemblies\Microsoft\Framework\WindowsBase.dll</HintPath>
-    </Reference>
+    </Reference>-->
   </ItemGroup>
 
   <ItemGroup>
